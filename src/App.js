@@ -9,8 +9,8 @@ function App() {
     <div className="App">
         <HeroBanner bannerTitle={"Tom Pringle"}/>
         <NavBar/>
-        <AboutMe/>
       <SkillsBox/>
+      <AboutMe/>
       <FooterBar/>
     </div>
   );
