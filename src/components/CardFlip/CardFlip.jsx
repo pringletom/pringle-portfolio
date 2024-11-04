@@ -14,7 +14,7 @@ const Item = styled(Paper)(({ theme }) => ({
     }),
   }));
 const CardFlip = (props) => {
-    const {cardText, cardImage} = props
+    const {cardText, cardImage, repoUrl} = props
     const [flipped, setFlipped] = useState(false)
     const handleClick = () => {
         setFlipped(!flipped)
@@ -29,8 +29,8 @@ const CardFlip = (props) => {
                 />
               </Item>
               <Item style={{height: '220px'}} onClick={handleClick}>
-                  <p
-                  >{cardText}</p>
+                  <p className='cardText'>{cardText}</p>
+                  {repoUrl ? (<a href={repoUrl[0]} target="_blank">{repoUrl[1]}</a>): ''}
               </Item>
         </ReactCardFlip>
       )
