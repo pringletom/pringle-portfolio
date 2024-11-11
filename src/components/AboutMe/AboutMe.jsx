@@ -7,14 +7,16 @@ const BorderBox = styled(Paper)(({ theme }) => ({
     backgroundColor: '#fff',
     ...theme.typography.body2,
     justifyContent: 'center',
-    padding: theme.spacing(2),
+    flexDirection: 'column',
+    padding: '50px',
     alignItems: 'center',
     textAlign: 'center',
     color: theme.palette.text.secondary,
     width: '50%',          
     fontSize: '15px',
     height: '100px',           
-    display: 'flex',                    
+    display: 'flex', 
+    marginTop: '20px',
     ...theme.applyStyles('dark', {
       backgroundColor: '#1A2027',
     }),
@@ -24,15 +26,13 @@ const BorderBox = styled(Paper)(({ theme }) => ({
 
 const AboutMe = () => {
     return (
-            <Box id={"aboutme"} sx={{ display: 'flex', justifyContent: 'center', alignItems:'center', marginTop: '20px'}}>
-                <BorderBox> 
-                    <Paragraph>    
-                        Hi, I’m Tom! 
-                        I’m a highly motivated self-taught web-developer. I’ve been learning to code since June 2024 and have gained proficiencies in React, Python, JavaScript, GDScript, and HTML and CSS.
-                        I always welcome new challenges and enjoy creating innovative solutions. My adaptability and attention to detail lend themselves well to problem-solving and debugging. As well as my technical skills I value working collaboratively and have developed excellent communication skills to convey ideas, updates and analysis.
-                    </Paragraph> 
-                </BorderBox>   
+            <Box sx={{display: 'flex', justifyContent: 'center' }}>
+                <BorderBox id={"aboutme"} >
+                    <Paragraph/>
+                </BorderBox> 
             </Box>
+            
+            
 );
 }
 
