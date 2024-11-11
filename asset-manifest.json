@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/pringle-portfolio/static/css/main.56bb6492.css",
+    "main.js": "/pringle-portfolio/static/js/main.9c105cff.js",
+    "static/js/453.e9bf7c18.chunk.js": "/pringle-portfolio/static/js/453.e9bf7c18.chunk.js",
+    "static/media/godotTransparent.png": "/pringle-portfolio/static/media/godotTransparent.e47ce5fd98272507b092.png",
+    "static/media/JSTransparent.webp": "/pringle-portfolio/static/media/JSTransparent.1053926cf2f54323bdc1.webp",
+    "static/media/cssTransparent.png": "/pringle-portfolio/static/media/cssTransparent.bb6c531e7151246fcfdc.png",
+    "index.html": "/pringle-portfolio/index.html",
+    "main.56bb6492.css.map": "/pringle-portfolio/static/css/main.56bb6492.css.map",
+    "main.9c105cff.js.map": "/pringle-portfolio/static/js/main.9c105cff.js.map",
+    "453.e9bf7c18.chunk.js.map": "/pringle-portfolio/static/js/453.e9bf7c18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56bb6492.css",
+    "static/js/main.9c105cff.js"
+  ]
+}
