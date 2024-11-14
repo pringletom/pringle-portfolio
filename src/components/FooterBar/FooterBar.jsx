@@ -20,7 +20,7 @@ const StyledEmail = styled(Email)(({ theme }) => ({
 
 const FooterBar = () => {
     const mailTo = () => {
-        window.location.href = "mailto:test.email@gmail.com";
+        window.location.href = "mailto:pringletom0@gmail.com";
     }
     
     const openInNewTab = (url) => {
@@ -29,10 +29,10 @@ const FooterBar = () => {
     return (<Box id={"footerbar"} sx={{ flexGrow: 1, alignItems: "center", justifyContent: "center", display: "flex" }}>
                 <Grid container spacing={{ xs: 2, md: 3 }}  columns={{ xs: 4, sm: 8, md: 12 }} sx={{marginTop: "90px", marginBottom: "20px"}} maxHeight={20} maxWidth={90}>
                     <Grid display="flex" justifyContent="center" alignItems="center" size="grow">
-                        <StyledLinkedIn color="primary" onClick={() => openInNewTab("https://uk.linkedin.com/")}/>
+                        <StyledLinkedIn color="primary" onClick={() => openInNewTab("https://www.linkedin.com/in/thomas-pringle-9b0942167/")}/>
                     </Grid>
                     <Grid display="flex" justifyContent="center" alignItems="center" size="grow">
-                        <StyledGitHub onClick={() => openInNewTab("https://uk.linkedin.com/")}/>
+                        <StyledGitHub onClick={() => openInNewTab("https://github.com/pringletom")}/>
                     </Grid>
                     <Grid display="flex" justifyContent="center" alignItems="center" size="grow">
                         <StyledEmail onClick={() => mailTo()}/>

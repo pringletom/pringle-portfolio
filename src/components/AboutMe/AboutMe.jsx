@@ -14,7 +14,7 @@ const BorderBox = styled(Paper)(({ theme }) => ({
     color: theme.palette.text.secondary,
     width: '50%',          
     fontSize: '15px',
-    height: '100px',           
+             
     display: 'flex', 
     marginTop: '20px',
     ...theme.applyStyles('dark', {
